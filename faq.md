@@ -82,7 +82,7 @@ In such cases, you're probably better off following the herds in picking SemVer.
 
 ## What's in a version number anyway?
 
-> _Whenever possible, use simple dates instead of version numbers. And if you absolutely, positively _must_ use version numbers internally, make them dates anyway. ~ Jeff Atwood_[^2]
+> _Whenever possible, use simple dates instead of version numbers. And if you absolutely, positively *must* use version numbers internally, make them dates anyway. ~ Jeff Atwood_[^2]
 
 _Source: [https://blog.codinghorror.com/whats-in-a-version-number-anyway/][3]_
 
