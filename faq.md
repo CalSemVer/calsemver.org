@@ -90,6 +90,8 @@ In such cases, you're probably better off following the herds in picking SemVer.
 
 _Source: [https://blog.codinghorror.com/whats-in-a-version-number-anyway/][3]_
 
+## Footnotes
+
 [^1]: And then ignoring the spec it provides 😞
 [^2]: Co-founder of Stack Overflow and Discourse
 [^3]: This question has been asked and answered multiple times: <a href="https://github.com/semver/semver/issues/942">https://github.com/semver/semver/issues/942</a>, <a href="https://github.com/semver/semver/issues/233">https://github.com/semver/semver/issues/233</a>, and <a href="https://github.com/semver/semver/pull/393">https://github.com/semver/semver/pull/393</a>
