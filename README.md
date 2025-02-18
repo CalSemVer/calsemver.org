@@ -1,5 +1,4 @@
 <!-- HTML Meta Tags -->
-<title>CalSemVer</title>
 <meta name="description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
 
 <!-- Facebook Meta Tags -->
@@ -8,6 +7,7 @@
 <meta property="og:title" content="CalSemVer">
 <meta property="og:description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
 <meta property="og:image" content="https://calsemver.org/logo.png">
+<meta property="og:logo" content="https://calsemver.org/logo.png" >
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
