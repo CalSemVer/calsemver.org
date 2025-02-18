@@ -10,6 +10,10 @@
 
 [**CalSemVer**][3] is a versioning convention that describes specific CalVer formats that are Semver compatible.
 
+To be SemVer _compliant_, some extra steps need to be taken. These steps are outlined in [the SemVer Compliance section][6].
+
+Any questions not answered in the [FAQ](faq.md) can be directed to [question@calsemver.org](mailto:question@calsemver.org)
+
 A major issue with any versioning scheme is not whether a newer version is available, but whether a newer version contains backward incompatible changes.
 
 **SemVer** sought to fix this problem by introducing the concept that a major version number change indicates backward incompatible changes. This solution places the burden of determining compatibility on the developer of the software. As discussed in various places[^1], in practice, it is often not followed correctly (if at all).
