@@ -1,0 +1,30 @@
+title: CalSemVer
+
+remote_theme: daattali/beautiful-jekyll@6.0.1 to your _config.yml
+
+navbar-links:
+  SemVer Compatibility: "semver-compliance.html"
+  Frequently Asked Questions (FAQ): "faq.html"
+
+social-network-links:
+  email: "question@calsemver.org"
+  github: CalSemVer
+
+url-pretty: "CalSemVer.org"
+
+title-on-all-pages: false
+post_search: false
+edit_page_button: true
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+# page-col: "#FFFFFF"
+# text-col: "#404040"
+# link-col: "#008AFF"
+# hover-col: "#0085A1"
+# navbar-col: "#EAEAEA"
+# navbar-text-col: "#404040"
+# navbar-border-col: "#DDDDDD"
+# footer-col: "#EAEAEA"
+# footer-text-col: "#777777"
+# footer-link-col: "#404040"
+# footer-hover-col: "#0085A1"
