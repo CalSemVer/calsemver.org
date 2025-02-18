@@ -1,6 +1,6 @@
 title: CalSemVer
 
-remote_theme: daattali/beautiful-jekyll@6.0.1 to your _config.yml
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
 navbar-links:
   SemVer Compatibility: "semver-compliance.html"
