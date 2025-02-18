@@ -55,11 +55,15 @@ In regard to SemVer, it specifies rules on how to most closely adhere to the spe
 
 Use something else. Seriously, life is too short and there are plenty of perfectly acceptable alternatives out there:
 
-- **CalVer** - Versioning using dates
-- **HashVer** - Versioning using hashes (for instance Git commit hashes)
-- **IntVer** - Versioning using integers (for instance SVN revision numbers)
-- **RandVer** - Versioning using random numbers
-- **SemVer** - Versioning using a set of three numbers
+- [**CalVer**][4] - Versioning using dates.
+- [**EffVer**][5] - Versioning that how much effort it will cost to adopt a new version.
+- [**HashVer**][6] - Versioning using hashes, for instance Git commit hashes.
+- [**KelVer**][7] - Versioning using ever decreasing natural numbers (i.e. negative integers)
+- **NameVer** - Versioning using names instead of numbers, for instance "Bionic Beaver".
+- **NatVer** (or **IntVer**) - Versioning using ever increasing natural numbers (i.e. positive integers), for instance SVN revision numbers.
+- [**PrideVer**][8] - Versioning based on how proud (or ashamed) a developer is of their release.
+- **RandVer** - Versioning using random numbers, for instance UUIDs.
+- [**SemVer**][9] - Versioning using a set of three numbers to denote backwards incompatible, backwards compatible, and bugfix  changes.
 
 Just make sure to document your choice, so others can understand your reasoning.[^5]
 
@@ -95,3 +99,9 @@ _Source: [https://blog.codinghorror.com/whats-in-a-version-number-anyway/][3]_
 [1]: https://www.explainxkcd.com/wiki/index.php/927:_Standards
 [2]: https://en.wiktionary.org/wiki/#English
 [3]: https://blog.codinghorror.com/whats-in-a-version-number-anyway/
+[4]: https://calver.org/
+[5]: https://jacobtomlinson.dev/effver/
+[6]: https://miniscruff.github.io/hashver/
+[7]: https://rybl.net/software-engineering/2022/06/08/kelvin-versioning.html
+[8]: https://mastodon.online/@nikitonsky/113691789641950263
+[9]: https://semver.org/
