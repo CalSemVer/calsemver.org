@@ -44,16 +44,16 @@ Compliance that depends on a workaround or "hack" is marked with a character:
    - [x] Version 1.0.0 defines the public API.<sup>* or ‡</sup>
    - [x] The way in which the version number is incremented after this release is dependent on this public API and how it changes.
 6.
-   - [x] Patch version Z (x.y.Z | x > 0) MUST be incremented if only backward compatible bug fixes are introduced.<sup>* or ‡</sup>
+   - [x] Patch version Z (x.y.Z \| x > 0) MUST be incremented if only backward compatible bug fixes are introduced.<sup>* or ‡</sup>
    - [x] A bug fix is defined as an internal change that fixes incorrect behavior.
 7.
-   - [x] Minor version Y (x.Y.z | x > 0) MUST be incremented if new, backward compatible functionality is introduced to the public API.<sup>* or ‡</sup>
+   - [x] Minor version Y (x.Y.z \| x > 0) MUST be incremented if new, backward compatible functionality is introduced to the public API.<sup>* or ‡</sup>
    - [x] It MUST be incremented if any public API functionality is marked as deprecated.
    - [x] It MAY be incremented if substantial new functionality or improvements are introduced within the private code.
    - [x] It MAY include patch level changes.
    - [x] Patch version MUST be reset to 0 when minor version is incremented.<sup>*</sup>
 8.
-   - [x] Major version X (X.y.z | X > 0) MUST be incremented if any backward incompatible changes are introduced to the public API.<sup>‡ or ⸸</sup>
+   - [x] Major version X (X.y.z \| X > 0) MUST be incremented if any backward incompatible changes are introduced to the public API.<sup>‡ or ⸸</sup>
    - [x] It MAY also include minor and patch level changes.
    - [x] Patch and minor versions MUST be reset to 0 when major version is incremented.<sup>* or †</sup>
 9.
@@ -66,8 +66,6 @@ Compliance that depends on a workaround or "hack" is marked with a character:
 10.
     - [x] Build metadata MAY be denoted by appending a plus sign and a series of dot separated identifiers immediately following the patch or pre-release version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-]. Identifiers MUST NOT be empty. Build metadata MUST be ignored when determining version precedence. Thus two versions that differ only in the build metadata, have the same precedence.
 11. - [x] Precedence refers to how versions are compared to each other when ordered.
-    <details><summary>Details</summary>
-
     1.
        - [x] Precedence MUST be calculated by separating the version into major, minor, patch and pre-release identifiers in that order (Build metadata does not figure into precedence).
     2.
@@ -77,8 +75,7 @@ Compliance that depends on a workaround or "hack" is marked with a character:
     4.
        - [x] Precedence for two pre-release versions with the same major, minor, and patch version MUST be determined by comparing each dot separated identifier from left to right until a difference is found as follows:
 
-       1. Identifiers consisting of only digits are compared numerically.
-       2. Identifiers with letters or hyphens are compared lexically in ASCII sort order.
-       3. Numeric identifiers always have lower precedence than non-numeric identifiers.
-       4. A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal.
-    </details>
+         1. Identifiers consisting of only digits are compared numerically.
+         2. Identifiers with letters or hyphens are compared lexically in ASCII sort order.
+         3. Numeric identifiers always have lower precedence than non-numeric identifiers.
+         4. A larger set of pre-release fields has a higher precedence than a smaller set, if all of the preceding identifiers are equal.
