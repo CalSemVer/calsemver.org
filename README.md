@@ -30,7 +30,7 @@ This limitation, [the steps needed to work around it][6], and whether developers
 
 ## Footnotes
 
-[^1]: See: https://github.com/mahmoud/calver/issues/4, https://github.com/conventional-commits/conventionalcommits.org/issues/555, https://github.com/pypa/pipenv/issues/2191, etc.
+[^1]: See: <a href="https://github.com/mahmoud/calver/issues/4">https://github.com/mahmoud/calver/issues/4</a>, <a href="https://github.com/conventional-commits/conventionalcommits.org/issues/555">https://github.com/conventional-commits/conventionalcommits.org/issues/555</a>, <a href="https://github.com/pypa/pipenv/issues/2191">https://github.com/pypa/pipenv/issues/2191</a>, etc.
 [^2]: For instance adhering to [![Keep a Changelog convention][5]][4]
 [^3]: Like CalVer, HashVer, IntVer, RandVer, or SemVer.
 
