@@ -1,3 +1,22 @@
+<!-- HTML Meta Tags -->
+<title>CalSemVer</title>
+<meta name="description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://calsemver.org/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CalSemVer">
+<meta property="og:description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+<meta property="og:image" content="https://calsemver.org/logo.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="calsemver.org">
+<meta property="twitter:url" content="https://calsemver.org/">
+<meta name="twitter:title" content="CalSemVer">
+<meta name="twitter:description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+<meta name="twitter:image" content="https://calsemver.org/logo.png">
+
 # CalSemVer
 
 ![](logo.png)
@@ -22,6 +41,19 @@ A major issue with any versioning scheme is not whether a newer version is avail
 
 **CalSemVer** is a combination of both approaches, using date-based versions that are SemVer compatible, with the advice to document backward breaking changes (and other changes) in release- or changelogs.[^2]
 
+<!--
+
+@TODO: This sound like marketing BS. Rewrite or remove.
+
+## Details
+
+The single most important aspect of CalSemVer is that it is both human- and machine-readable.
+
+A CalSemVer version is meant to convey information to consumers of the software, regardless of whether they're regular users or developers.
+
+It is also meant to be used by machines to determine if a newer version is available, and if it is compatible with the current version.
+-->
+
 ## Shortcomings
 
 The major limitations of CalSemVer are similar to that of SemVer, in that it is up to the developer to make sure they actually follow the rules.
@@ -31,6 +63,8 @@ Without strict adherence to the rules, an update in the "major" version (to repr
 Conversely, a "minor" version update (to represent a new month) _might_ contain backward incompatible changes.
 
 This limitation, [the steps needed to work around it][6], and whether developers are willing to follow these steps, are explicitly what dictate whether CalSemver is a good fit for a project or whether another versioning scheme should be used instead.[^3]
+
+<!-- @TODO: Add "something" to help users decided whether to use CalVer, Semver, orCalSemver? -->
 
 ## Footnotes
 
