@@ -1,3 +1,8 @@
+<style>
+    p:nth-of-type(2) {font-size: 190%;text-align: center;}
+    table {width: 100%;}
+</style>
+
 <!-- HTML Meta Tags -->
 <meta name="description" content="CalVer formats that are Semver compatible.">
 
