@@ -4,8 +4,8 @@ permalink: pretty
 remote_theme: daattali/beautiful-jekyll@6.0.1
 
 navbar-links:
-  SemVer Compatibility: "semver-compliance.html"
-  Frequently Asked Questions (FAQ): "faq.html"
+  SemVer Compatibility: "semver-compliance/"
+  Frequently Asked Questions (FAQ): "faq/"
 
 social-network-links:
   email: "question@calsemver.org"
