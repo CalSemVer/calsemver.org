@@ -21,13 +21,13 @@ It can be made _compliant_ by **only** breaking backward compatibility once a ye
 
 An alternative is to prefix the version with a `0` so you're allowed to whatever you want, as per spec. (e.g. `0.24.3`)
 
-If you don't publish a release every month, it is perfectly fine to "skip" versions.[^3]
+If you don't publish a release every month, it is perfectly fine to "skip" versions.[^1]
 
 Item 7 of the SemVer spec states:
 
 > _"Patch version MUST be reset to 0 when minor version is incremented."_
 
-If you don't want to skip "zero" versions, a good yearly "zero" is updating any mentions of the year in the codebase, like copyright notices or "is maintained" badges.[^4]
+If you don't want to skip "zero" versions, a good yearly "zero" is updating any mentions of the year in the codebase, like copyright notices or "is maintained" badges.[^2]
 
 ## I don't like using full years!
 
@@ -60,43 +60,45 @@ Use something else. Seriously, life is too short and there are plenty of perfect
 - [**HashVer**][6] - Versioning using hashes, for instance Git commit hashes.
 - [**KelVer**][7] - Versioning using ever decreasing natural numbers (i.e. negative integers)
 - **NameVer** - Versioning using names instead of numbers, for instance "Bionic Beaver".
-- **NatVer** (or **IntVer**) - Versioning using ever increasing natural numbers (i.e. positive integers), for instance SVN revision numbers.
+- **NatVer** (or **IntVer**) - Versioning using ever-increasing natural numbers (i.e. positive integers), for instance SVN revision numbers.
 - [**PrideVer**][8] - Versioning based on how proud (or ashamed) a developer is of their release.
 - **RandVer** - Versioning using random numbers, for instance UUIDs.
 - [**SemVer**][9] - Versioning using a set of three numbers to denote backwards incompatible, backwards compatible, and bugfix  changes.
 
-Just make sure to document your choice, so others can understand your reasoning.[^5]
+Just make sure to document your choice, so others can understand your reasoning.[^3]
 
 ## What is CalSemVer a good match for?
 
-The original (and probably most useful) usecase, is for a tool or service that combines several subsystems or tools, that all have their own version. In such cases, SemVer is not sufficient to represent the changes in the underlying code.
+The original (and probably most useful) usecase, is for a tool or service that combines several subsystems or tools, that all have their own version. 
+In such cases, SemVer is not sufficient to represent the changes in the underlying code.
 
 This was the case for [the Pipeline Components project](https://pipeline-components.dev/), where the idea for CalSemVer originated.
 
 ## What is CalSemVer _not_ a good match for?
 
-If you create a library or package that is used by other developers,  or if you work in a  more strict (or more corporate) setting, CalSemVer might not be the best choice. For one thing, it will create confusion among developers who are used to SemVer.
+If you create a library or package that is used by other developers,  or if you work in a  more strict (or more corporate) setting, CalSemVer might not be the best choice. 
+For one thing, it will create confusion among developers who are used to SemVer.
 Another issue is that your versioning scheme will not be compatible with other teams or packages within your organization.
 
 Unless you can convince your colleagues to use CalSemVer as well, you're probably better off using SemVer.
 
 A final, more negative, scenario is if your developers habitually ignore their problems, and instead prefer to use <del>magic</del> <ins>more code</ins>, both the simplicity of CalSemVer and the responsibility it places on developers will not be popular.
 
-In such cases, you're probably better off following the herds in picking SemVer.[^1]
+In such cases, you're probably better off following the herds ~~down to greece~~ in picking SemVer.[^4]
 
 ## What's in a version number anyway?
 
-> _Whenever possible, use simple dates instead of version numbers. And if you absolutely, positively *must* use version numbers internally, make them dates anyway. ~ Jeff Atwood_[^2]
+> _Whenever possible, use simple dates instead of version numbers. And if you absolutely, positively *must* use version numbers internally, make them dates anyway. ~ Jeff Atwood_[^5]
 
 _Source: [https://blog.codinghorror.com/whats-in-a-version-number-anyway/][3]_
 
 ## Footnotes
 
-[^1]: And then ignoring the spec it provides 😞
-[^2]: Co-founder of Stack Overflow and Discourse
-[^3]: This question has been asked and answered multiple times: <a href="https://github.com/semver/semver/issues/942">https://github.com/semver/semver/issues/942</a>, <a href="https://github.com/semver/semver/issues/233">https://github.com/semver/semver/issues/233</a>, and <a href="https://github.com/semver/semver/pull/393">https://github.com/semver/semver/pull/393</a>
-[^4]: For instance https://shields.io/badges/maintenance: !["is maintained" badge](https://img.shields.io/maintenance/yes/2025)
-[^5]: Yes, I know. Documentation, like [eurgh][2], right?
+[^1]: This question has been asked and answered multiple times: <a href="https://github.com/semver/semver/issues/942">https://github.com/semver/semver/issues/942</a>, <a href="https://github.com/semver/semver/issues/233">https://github.com/semver/semver/issues/233</a>, and <a href="https://github.com/semver/semver/pull/393">https://github.com/semver/semver/pull/393</a>
+[^2]: For instance https://shields.io/badges/maintenance: !["is maintained" badge](https://img.shields.io/maintenance/yes/2025)
+[^3]: Yes, I know. Documentation, like [eurgh][2], right?
+[^4]: And then ignoring the spec it provides 😞
+[^5]: Co-founder of Stack Overflow and Discourse
 
 [1]: https://www.explainxkcd.com/wiki/index.php/927:_Standards
 [2]: https://en.wiktionary.org/wiki/#English
