@@ -21,17 +21,22 @@
 
 ![](logo.png)
 
-|        [**CalVer**][1] is ...         |   |       [**SemVer**][2]  is ...        |
-|:-------------------------------------:|---|:------------------------------------:|
-|        A versioning convention        |   |      A versioning specification      |
-| That uses a date-based version number |   |    That defines rules for numbers    |
-| To represent a project's code changes |   | To describe a project's code changes |
+|         [**CalVer**][1] is ...         |   |        [**SemVer**][2]  is ...        |
+|:--------------------------------------:|---|:-------------------------------------:|
+|        A versioning convention         |   |      A versioning specification       |
+| That uses a date-based version number  |   |    That defines rules for numbers     |
+| To represent a project's code changes. |   | To describe a project's code changes. |
+|       For instance: `2025.06.07`       |   |         For instance: `1.2.3`         |
 
-[**CalSemVer**][3] is a versioning convention that describes specific CalVer formats that are Semver compatible.
+[**CalSemVer**][3] is a versioning convention that describes specific CalVer formats that are Semver compatible.[^0]
 
-To be SemVer _compliant_, some extra steps need to be taken. These steps are outlined in [the SemVer Compliance section][6].
+For instance:
 
-Any questions not answered in the [FAQ](faq.md) can be directed to [question@calsemver.org](mailto:question@calsemver.org)
+ - `2025.6.7`
+ - `25.6.7`
+ - `0.25.6`
+
+## Motivation
 
 A major issue with any versioning scheme is not whether a newer version is available, but whether a newer version contains backward incompatible changes.
 
@@ -40,6 +45,8 @@ A major issue with any versioning scheme is not whether a newer version is avail
 **CalVer** does not try to solve this problem, placing the burden of determining compatibility on the consumer of the software. The main argument for this is that the consumer should be able to determine compatibility, as they should be familiar with the (vendor) code they are using.
 
 **CalSemVer** is a combination of both approaches, using date-based versions that are SemVer compatible, with the advice to document backward breaking changes (and other changes) in release- or changelogs.[^2]
+
+Any questions not answered in the [FAQ](faq.md) can be directed to [question@calsemver.org](mailto:question@calsemver.org)
 
 <!--
 
@@ -68,6 +75,7 @@ This limitation, [the steps needed to work around it][6], and whether developers
 
 ## Footnotes
 
+[^0] To be SemVer _compliant_, some extra steps need to be taken. These steps are outlined in [the SemVer Compliance section][6].
 [^1]: See: <a href="https://github.com/mahmoud/calver/issues/4">https://github.com/mahmoud/calver/issues/4</a>, <a href="https://github.com/conventional-commits/conventionalcommits.org/issues/555">https://github.com/conventional-commits/conventionalcommits.org/issues/555</a>, <a href="https://github.com/pypa/pipenv/issues/2191">https://github.com/pypa/pipenv/issues/2191</a>, etc.
 [^2]: For instance adhering to [![Keep a Changelog convention][5]][4]
 [^3]: Like CalVer, HashVer, IntVer, RandVer, or SemVer.
