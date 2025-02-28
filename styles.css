@@ -1,0 +1,2 @@
+/* Hide Markdown title as the theme already adds an H1 */
+h1[id] {display:none;}

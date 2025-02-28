@@ -16,6 +16,8 @@ url-pretty: "CalSemVer.org"
 title-on-all-pages: false
 post_search: false
 edit_page_button: true
+site-css:
+  - styles.css
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 # page-col: "#FFFFFF"
