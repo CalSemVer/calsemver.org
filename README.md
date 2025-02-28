@@ -1,11 +1,11 @@
 <!-- HTML Meta Tags -->
-<meta name="description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+<meta name="description" content="CalVer formats that are Semver compatible.">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://calsemver.org/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="CalSemVer">
-<meta property="og:description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+<meta property="og:description" content="CalVer formats that are Semver compatible.">
 <meta property="og:image" content="https://calsemver.org/logo.png">
 <meta property="og:logo" content="https://calsemver.org/logo.png" >
 
@@ -14,12 +14,16 @@
 <meta property="twitter:domain" content="calsemver.org">
 <meta property="twitter:url" content="https://calsemver.org/">
 <meta name="twitter:title" content="CalSemVer">
-<meta name="twitter:description" content="CalSemVer is a versioning convention that describes specific CalVer formats that are Semver compatible.">
+<meta name="twitter:description" content="CalVer formats that are Semver compatible.">
 <meta name="twitter:image" content="https://calsemver.org/logo.png">
 
 # CalSemVer
 
 ![](logo.png)
+
+If you want to use dates for versioning (_CalVer_),<br>
+but have to be compatible with _SemVer_,<br>
+**CalSemVer** is for you!
 
 |         [**CalVer**][1] is ...         |   |        [**SemVer**][2]  is ...        |
 |:--------------------------------------:|---|:-------------------------------------:|
@@ -28,13 +32,12 @@
 | To represent a project's code changes. |   | To describe a project's code changes. |
 |       For instance: `2025.06.07`       |   |         For instance: `1.2.3`         |
 
-[**CalSemVer**][3] is a versioning convention that describes specific CalVer formats that are Semver compatible.[^0]
-
-For instance:
-
- - `2025.6.7`
- - `25.6.7`
- - `0.25.6`
+|             [**CalSemVer**][3] is             |
+|:---------------------------------------------:|
+|            a versioning convention            |
+|     that uses specific **CalVer formats**     |
+|       to be **Semver compatible**.[^0]        |
+| For instance: `2025.6.7`, `25.6.7` or`0.25.6` |
 
 ## Motivation
 
