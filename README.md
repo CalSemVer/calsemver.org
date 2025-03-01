@@ -1,5 +1,5 @@
 <style>
-    p:nth-of-type(2) {font-size: 190%;text-align: center;}
+    p:nth-of-type(2) {font-size: 180%;text-align: center;}
     table {width: 100%;}
 </style>
 
