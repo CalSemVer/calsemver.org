@@ -1,4 +1,5 @@
 title: CalSemVer
+description: If you want to use dates for versioning (CalVer), but have to be compatible with SemVer, CalSemVer is for you!
 
 permalink: pretty
 remote_theme: daattali/beautiful-jekyll@6.0.1
