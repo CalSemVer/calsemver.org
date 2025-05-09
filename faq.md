@@ -101,7 +101,7 @@ _Source: [https://blog.codinghorror.com/whats-in-a-version-number-anyway/][3]_
 [^5]: Co-founder of Stack Overflow and Discourse
 
 [1]: https://www.explainxkcd.com/wiki/index.php/927:_Standards
-[2]: https://en.wiktionary.org/wiki/#English
+[2]: https://en.wiktionary.org/wiki/eurgh
 [3]: https://blog.codinghorror.com/whats-in-a-version-number-anyway/
 [4]: https://calver.org/
 [5]: https://jacobtomlinson.dev/effver/
