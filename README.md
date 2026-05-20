@@ -46,13 +46,13 @@ but have to be compatible with _SemVer_,<br>
 
 ## Motivation
 
-A major issue with any versioning scheme is not whether a newer version is available, but whether a newer version contains backward incompatible changes.
+A major issue with any versioning scheme is how to communicate that newer version contains backward incompatible changes.
 
-**SemVer** sought to fix this problem by introducing the concept that a major version number change indicates backward incompatible changes. This solution places the burden of determining compatibility on the developer of the software. As discussed in various places[^1], in practice, it is often not followed correctly (if at all).
+**CalVer** does not try to solve this problem. The main argument for this is that the user should be familiar with the (vendor) code to be able to determine compatibility.
 
-**CalVer** does not try to solve this problem, placing the burden of determining compatibility on the consumer of the software. The main argument for this is that the consumer should be able to determine compatibility, as they should be familiar with the (vendor) code they are using.
+**SemVer** uses major version number incremenet to indicate backward incompatible changes. The developer of the software defines compatibility. In practice it doesn't always work right (if at all)[^1].
 
-**CalSemVer** is a combination of both approaches, using date-based versions that are SemVer compatible, with the advice to document backward breaking changes (and other changes) in release- or changelogs.[^2]
+**CalSemVer** is a combination of forward going date-based versions with the convention to document backward breaking changes (and other changes) in release- or changelogs[^2]. The version numbers are SemVer compatible and can be parsed by SemVer tools.
 
 Any questions not answered in the [FAQ](faq.md) can be directed to [question@calsemver.org](mailto:question@calsemver.org)
 
