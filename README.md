@@ -46,7 +46,7 @@ but have to be compatible with _SemVer_,<br>
 
 ## Motivation
 
-A major issue with any versioning scheme is how to communicate that newer version contains backward incompatible changes.
+A major issue with any versioning scheme is how to communicate that newer versions contain backward incompatible changes.
 
 **CalVer** does not try to solve this problem. The main argument for this is that the user should be familiar with the (vendor) code to be able to determine compatibility.
 
