@@ -1,4 +1,5 @@
 <style>
+    ol > li:has(sup)::marker {text-shadow: -1px 0 #FAA41A, 0 -1px #FAA41A, 1px 0 #FAA41A, 0 1px #FAA41A;}
     sup {background: #FAA41A; border: 1px solid #9D7535; border-radius: 1em; color: #3F4551; padding: 0 0.35em;}
 </style>
 
