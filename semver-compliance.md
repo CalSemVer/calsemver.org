@@ -1,3 +1,7 @@
+<style>
+    sup {background: #FAA41A; border: 1px solid #9D7535; border-radius: 1em; color: #3F4551; padding: 0 0.35em;}
+</style>
+
 # SemVer Compatibility
 
 Below is the SemVer 2.0.0 specification, omitting examples, as taken from [semver.org](https://semver.org/).
