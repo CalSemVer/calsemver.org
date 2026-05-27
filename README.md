@@ -84,7 +84,7 @@ This limitation, [the steps needed to work around it][6], and whether developers
 [^0]: To be SemVer _compliant_, some extra steps need to be taken. These steps are outlined in [the SemVer Compliance section][6].
 [^1]: See: <a href="https://github.com/mahmoud/calver/issues/4">https://github.com/mahmoud/calver/issues/4</a>, <a href="https://github.com/conventional-commits/conventionalcommits.org/issues/555">https://github.com/conventional-commits/conventionalcommits.org/issues/555</a>, <a href="https://github.com/pypa/pipenv/issues/2191">https://github.com/pypa/pipenv/issues/2191</a>, etc.
 [^2]: For instance adhering to [![Keep a Changelog convention][5]][4]
-[^3]: See [FAQ#what-if-i-dont-agree][] for choices
+[^3]: See [FAQ#what-if-i-dont-agree][7] for choices
 
 [1]: https://calver.org
 [2]: https://semver.org
